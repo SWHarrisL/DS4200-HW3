@@ -1,0 +1,120 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Custom font and background styling */
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 20px;
+}
+
+/* Main content container */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+}
+
+/* Navigation styling */
+nav {
+    background-color: #4a90e2;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Heading styles */
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+h2 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+h3 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+/* Image styling */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+}
+
+/* Paragraph styling */
+p {
+    margin-bottom: 15px;
+}
+
+/* List styling */
+ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Contact section styling */
+.contact-section {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.contact-section a {
+    display: inline-block;
+    background-color: #4a90e2;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.contact-section a:hover {
+    background-color: #357abd;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
