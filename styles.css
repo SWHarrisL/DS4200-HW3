@@ -9,8 +9,8 @@
 body {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.6;
-    background-color: #f0f0f0;
-    color: #333;
+    background-color: whitesmoke;
+    color: black;
     padding: 20px;
 }
 
@@ -24,7 +24,7 @@ main {
 
 /* Navigation styling */
 nav {
-    background-color: #4a90e2;
+    background-color: royalblue;
     padding: 15px;
     margin-bottom: 20px;
 }
@@ -50,20 +50,20 @@ nav ul li a:hover {
 
 /* Heading styles */
 h1 {
-    color: #2c3e50;
+    color: darkblue;
     text-align: center;
     margin-bottom: 20px;
     font-size: 28px;
 }
 
 h2 {
-    color: #2c3e50;
+    color: darkblue;
     margin-bottom: 15px;
     font-size: 24px;
 }
 
 h3 {
-    color: #2c3e50;
+    color: darkblue;
     margin-bottom: 10px;
     font-size: 20px;
 }
@@ -74,7 +74,7 @@ img {
     height: auto;
     display: block;
     margin: 20px auto;
-    border: 1px solid #ddd;
+    border: 1px solid gray;
 }
 
 /* Paragraph styling */
@@ -100,7 +100,7 @@ li {
 
 .contact-section a {
     display: inline-block;
-    background-color: #4a90e2;
+    background-color: royalblue;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -108,7 +108,7 @@ li {
 }
 
 .contact-section a:hover {
-    background-color: #357abd;
+    background-color: blue;
 }
 
 /* Footer styling */
@@ -116,5 +116,5 @@ footer {
     text-align: center;
     margin-top: 30px;
     padding: 20px;
-    background-color: #f8f9fa;
+    background-color: lightgray;
 }
